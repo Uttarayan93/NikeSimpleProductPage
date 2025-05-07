@@ -1,0 +1,55 @@
+body {
+  max-width: 90%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin: 5px 100px;
+  /* border: 1px solid black; */
+}
+
+.title {
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.para {
+  color: gray;
+}
+
+.shop_btn {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.shop_btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.category_btn {
+  color: gray;
+  background-color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.brandimage {
+  display: flex;
+  gap: 20px;
+}
+
+.brandimage img {
+  cursor: pointer;
+}
